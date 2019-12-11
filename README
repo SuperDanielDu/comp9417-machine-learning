@@ -1,0 +1,16 @@
+We choose topic 1.1 as our assignment, the task link is as follow:
+https://www.kaggle.com/c/facebook-v-predicting-check-ins/overview
+
+Group Members:
+Sheng Du z5171466
+Chengze Du z5140893
+Mengxiao Shao z5204004
+
+data set link:
+https://drive.google.com/drive/folders/1OpcWSP2ntqHM9Qm9pE6dGRcT-CJgIoHy?usp=sharing
+
+Step:
+1. download the file train.csv and file Assignment.py in the same dictionary
+2. open terminal under this dictionary
+3. run the following command: $ python3 Assignment.py > output.txt
+(we have upload our output in the google drive which is output.txt)

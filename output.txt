@@ -1,0 +1,64 @@
+data shape: (86403, 6)
+KNN:
+y_predict:
+[7878376629 3850122258 2111592024 ... 8849265853 9806520237 3028365193]
+
+Accuracy: 0.3735717359085911
+
+Best K value: {'n_neighbors': 6}
+
+Best result: 0.3449028700737837
+
+Best estimator: KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=6, p=2,
+                     weights='uniform')
+
+cv result: {'mean_fit_time': array([0.02599605]), 'std_fit_time': array([0.00013413]), 'mean_score_time': array([0.71112704]), 'std_score_time': array([0.01426728]), 'param_n_neighbors': masked_array(data=[6],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'n_neighbors': 6}], 'split0_test_score': array([0.33786709]), 'split1_test_score': array([0.34662841]), 'split2_test_score': array([0.35041033]), 'mean_test_score': array([0.34490287]), 'std_test_score': array([0.00526385]), 'rank_test_score': array([1], dtype=int32)}
+
+Decision Tree:
+y_predict:
+[1761400859 5021487978 2111592024 ... 8849265853 2502265104 3028365193]
+
+Accuracy: 0.4310369555863652
+
+Best K value: {'max_depth': 11}
+
+Best result: 0.4332361237271119
+
+Best estimator: DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=11,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+
+cv result: {'mean_fit_time': array([0.94383367]), 'std_fit_time': array([0.02483163]), 'mean_score_time': array([0.10961572]), 'std_score_time': array([0.01106071]), 'param_max_depth': masked_array(data=[11],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_depth': 11}], 'split0_test_score': array([0.4264872]), 'split1_test_score': array([0.43835485]), 'split2_test_score': array([0.43500219]), 'mean_test_score': array([0.43323612]), 'std_test_score': array([0.0050177]), 'rank_test_score': array([1], dtype=int32)}
+
+Random Forest:
+y_predict:
+ [1761400859 5021487978 2111592024 ... 8849265853 9806520237 3028365193]
+Accuracy: 0.48085289477458526
+
+Best K value: {'n_estimators': 70}
+
+Best result: 0.4763589424869723
+
+Best estimator: RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=70,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+cv result: {'mean_fit_time': array([54.83708517]), 'std_fit_time': array([1.99024174]), 'mean_score_time': array([15.95167406]), 'std_score_time': array([1.21779825]), 'param_n_estimators': masked_array(data=[70],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'n_estimators': 70}], 'split0_test_score': array([0.46860881]), 'split1_test_score': array([0.4780966]), 'split2_test_score': array([0.48259117]), 'mean_test_score': array([0.47635894]), 'std_test_score': array([0.00583874]), 'rank_test_score': array([1], dtype=int32)}
+
